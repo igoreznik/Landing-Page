@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Landing Page</title>
@@ -30,12 +31,14 @@
 			<h3>Fill your details now</h3>
 			<form class="details-form" action="">
 				<input type="text" placeholder="Full Name">
-				<input type="tel" placeholder="Phone" required>
-				<input type="emai" placeholder="Email" required>
-				<a href="#"><button><b>Submit Now</b></button></a>
+				<input type="tel" placeholder="Phone">
+				<input type="emai" placeholder="Email">
+				<button type="submit" class="submit-now"><b>Submit Now</b></button>
 			</form>
 		</div>
 	</footer>
-		<script src="../js/main.js"></script>
+		<script src="js/utils.js"></script>
+		<script src="js/formSettings.js"></script>
+		<script src="js/main.js"></script>
 </body>
 </html>
