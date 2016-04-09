@@ -122,13 +122,14 @@ a {
 	outline: none;
 }
 
-@media (min-width: 320px) and (max-width: 586px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
 	.content {
 		background-position-x: -440px;
 		background-size: 1024px;
 		background-repeat: no-repeat;
-		height: 190px;
+		height: 220px;
+		width: auto;
 
 	}
 
@@ -147,7 +148,7 @@ a {
 	}
 
 	.details-form {
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 
 	input {
@@ -165,23 +166,26 @@ a {
 	}
 }
 
-@media (min-width: 587px) and (max-width: 809px) {
+@media (min-width: 769px) and (max-width: 1600px) {
 
 	.content {
-		background-position-x: 0;
+		background-position-x: 65%;
 		background-size: cover;
 		background-repeat: no-repeat;
-		height: 190px;
+		height: 1200px;
+		width: auto;
 	}
 
 	.content-list {
+		position: absolute;
 		padding-left: 20px;
+		top: 100px;
 	}
 	
 	.list-item {
-		font-size: 1.4rem;
-		margin-bottom: 5px;
-		padding: 5px;
+		font-size: 4.2rem;
+		margin-bottom: 65px;
+		padding: 10px;
 	}
 
 	header p {
@@ -193,8 +197,8 @@ a {
 	}
 
 	input {
-		display: block;
-		margin: 20px auto;
+		display: inline-block;
+		margin: 20px 5px;
 	}
 
 	.submit-now {
@@ -206,3 +210,44 @@ a {
 
 	}
 }
+
+/*@media (min-width: 809px) and (max-width: 1600px) {
+
+	.content {
+		background-position-x: 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: auto;
+	}
+
+	.content-list {
+		padding-left: 20px;
+	}
+	
+	.list-item {
+		font-size: 1.8rem;
+		margin-bottom: 5px;
+		padding: 5px;
+	}
+
+@media (max-width: 1600px) {
+
+	.content {
+		background-position-x: 60%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 1200px;
+		width: auto;
+	}
+
+	.content-list {
+		position: absolute;
+		padding-left: 20px;
+		top: 100px;
+	}
+	
+	.list-item {
+		font-size: 4.2rem;
+		margin-bottom: 65px;
+		padding: 10px;
+	}*/
